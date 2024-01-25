@@ -1,4 +1,4 @@
-# TaskIntern
+# Schedule_Task
 
 ### Instruction to Set up locally
 
@@ -20,6 +20,7 @@ Now you can check the Api in Postman .
 5. Delete a task by ID
 6. User Authentication
 7. Task Status
+8. Get Task of Same Catagories
 
 Middleware functions to handle common tasks such as error handling, request logging, and authentication checks.
 
@@ -221,4 +222,39 @@ Response
     ]
 }
 ```
+
+#### Get the catagories
+
+```http
+POST /api/GetCatagories
+```
+
+Request Header
+| Key          | Value              |
+---------------|---------------------
+|Authorization | Bearer <JWT_TOKEN> |
+
+
+Request Body
+```json
+{
+    "Catagories":"Node"
+}
+```
+Response
+```json
+[
+    {
+        "_id": "65b2302c163befc3cd6d3ea4",
+        "title": "Node Task",
+        "description": "Create Node Api",
+        "assigneduser": "Nipun",
+        "DueDate": "27/11/23",
+        "completionStatus": "Not done",
+        "Catagories": "Node",
+        "__v": 0
+    }
+]
+```
+
 
