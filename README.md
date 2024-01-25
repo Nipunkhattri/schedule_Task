@@ -10,7 +10,7 @@
 <li>Run cmd (nodemon ./server.js)</li>
 </ul>
 Now you can check the Api in Postman .
-Live Backend Link - http://shedule-task.onrender.com/ (You can use it run postman)
+Live Backend Link - http://shedule-task.onrender.com/ (You can use it to run in postman)
 
 
 ### Create RESTful endpoints for the API using Node JS
