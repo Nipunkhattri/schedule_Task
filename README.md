@@ -2,7 +2,7 @@
 
 ### Instruction to Set up locally
 
-1 Run cmd (git clone https://github.com/Nipunkhattri/TaskIntern.git)</br>
+1 Run cmd (git clone https://github.com/Nipunkhattri/schedule_Task.git)</br>
 2 Oen folder</br>
 <ul>
 <li>Run cmd (npm install)</li>
@@ -10,6 +10,7 @@
 <li>Run cmd (nodemon ./server.js)</li>
 </ul>
 Now you can check the Api in Postman .
+Live Backend Link - http://shedule-task.onrender.com/ (You can use it run postman)
 
 
 ### Create RESTful endpoints for the API using Node JS
