@@ -13,10 +13,6 @@ const Taskschema  = new mongoose.Schema({
         type:String,
         required:true
     },
-    DueDate:{
-        type:String,
-        required:true
-    },
     completionStatus: {
         type: String,
         default: false,
@@ -24,7 +20,11 @@ const Taskschema  = new mongoose.Schema({
     Catagories:{
         type:String,
         required:true
-    }
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now,
+    },
 })
 
 export default mongoose.model('Task', Taskschema);
